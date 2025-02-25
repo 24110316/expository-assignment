@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>87fa289c520b4aee8ebda07812fe497b</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="chartistjs-tutorial" class="cell markdown"
+id="sGpFSCGXOEwB">
+<h1><strong>Chartist.js Tutorial</strong></h1>
+<p>Getting Started using Chartist.js</p>
+</section>
+<div class="cell markdown" id="BJPJrr90OTTU">
+<p>A Simple, Responsive Charting Library for Creating Beautiful Charts
+with Ease.</p>
+</div>
+<div class="cell markdown" id="bISuDXQSOaCy">
+<p><strong>What is Chartist.js?</strong></p>
+</div>
+<div class="cell markdown" id="pj1s--UVOdm1">
+<p>Chartist is a simple responsive charting library built with SVG,
+designed to create beautiful, responsive charts effortlessly. Whether
+you need line graphs, bar charts, or pie charts, Chartist.js makes the
+process intuitive while allowing extensive customization. Because it’s
+built on SVG, charts scale perfectly on any screen size without losing
+clarity.</p>
+</div>
+<div class="cell markdown" id="GUYjS9BQOerV">
+<p><strong>Installation &amp; Setup</strong></p>
+</div>
+<div class="cell markdown" id="lcaM9tc2jmbC">
+<p><strong>For Windows Users (Using npm or Yarn)</strong></p>
+<p>If you are working on a larger project and using Node.js, you can
+install Chartist.js via npm:</p>
+<p>npm install chartist</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="XPQRuDftj8R7" data-outputId="941ca125-7725-4d94-ebd7-f0e5268a5a37">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>npm install <span class="op">--</span>save chartist</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>s
+0 vulnerabilities
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="fB1nu-OakClg">
+<p>Or, using Yarn:</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="A3LwTfJnkDxt" data-outputId="52068eae-6128-4c9c-be36-42e88b31ea6c">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>yarn add chartist</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>/bin/bash: line 1: yarn: command not found
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="eSpDjEW_kN3s">
+<p>Then, import it into your JavaScript file:</p>
+</div>
+<div class="cell code" id="a8dfPp5MkPZ2">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Assuming you are using a library like jupyter notebook, this is how to import CSS:</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co"># from IPython.display import HTML</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co"># HTML(&#39;&lt;link rel=&quot;stylesheet&quot; href=&quot;chartist/dist/chartist.min.css&quot;&gt;&#39;)</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="co">#Then import chartist using a javascript library like requirejs:</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="co"># import Chartist from &#39;chartist&#39;;</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="co"># This is python so these imports will not work as they are</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="co"># for Javascript code.</span></span></code></pre></div>
+</div>
+<div class="cell markdown" id="FFGx88pskhPd">
+<p>For Mac/Linux Users (Using npm or Yarn)</p>
+<p>The process for Mac and Linux users is the same as Windows:</p>
+</div>
+<div class="cell code" data-execution_count="46"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:0}"
+id="eSI6ex62kmWI" data-outputId="43aadfdd-8f61-40cf-9957-f873f9cd5442">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>npm install chartist</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>s
+0 vulnerabilities
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="pMpM-o_ikpSc">
+<p>Or with Yarn:</p>
+</div>
+<div class="cell code" data-execution_count="39"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:0}"
+id="mYPtx_n4ku3Q" data-outputId="6dc6425f-52d5-4f63-d7e1-ea6556ae57e9">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>yarn add chartist</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>/bin/bash: line 1: yarn: command not found
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="6o_LDbeek0VV">
+<p>If you encounter permission issues on Linux/Mac, try running:</p>
+</div>
+<div class="cell code" data-execution_count="38"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:0}"
+id="3C3U-Oqgk3_2" data-outputId="acc1ba28-f862-4cb2-e021-20c4a762720e">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>sudo npm install <span class="op">-</span>g chartist</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>sudo: npm: command not found
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="upklxDdN7MTa">
+<p><strong>Key Features &amp; Explanation</strong></p>
+</div>
+<div class="cell markdown" id="l4Y8c3S376L_">
+<p>This library is</p>
+<ol>
+<li>SVG-Based – Ensures high-quality visuals at any scale.</li>
+<li>Fully Responsive – Charts adapt seamlessly to any device.</li>
+<li>Highly Customizable – Modify styles using CSS and JavaScript.</li>
+<li>Easy to Integrate – Works smoothly with React, Angular, Vue, and
+more.</li>
+</ol>
+</div>
+<div class="cell markdown" id="BPry5mJb8Xv8">
+<p><strong>Code Examples</strong></p>
+</div>
+<div class="cell markdown" id="B2gx9yeLlA2Q">
+<p>First Create a Chart Container</p>
+<p>Define a simple div where your chart will appear:</p>
+</div>
+<div class="cell markdown" id="CSEkDgTFlKB4">
+<p>Now create a basic line chart:</p>
+</div>
+<div class="cell code" data-execution_count="53"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:884}"
+id="_qm6nq789h4Y" data-outputId="9a5d7d10-daec-4850-d53b-3626020dea7e">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.core.display <span class="im">import</span> display, HTML</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>html_code <span class="op">=</span> <span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="st">&lt;!DOCTYPE html&gt;</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="st">&lt;html&gt;</span></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a><span class="st">&lt;head&gt;</span></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/chartist/dist/chartist.min.css&quot;&gt;</span></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;script src=&quot;https://cdn.jsdelivr.net/npm/chartist/dist/chartist.min.js&quot;&gt;&lt;/script&gt;</span></span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a><span class="st">&lt;/head&gt;</span></span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a><span class="st">&lt;body&gt;</span></span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;div class=&quot;ct-chart ct-perfect-fourth&quot;&gt;&lt;/div&gt;</span></span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;script&gt;</span></span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a><span class="st">    new Chartist.Line(&#39;.ct-chart&#39;, {</span></span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a><span class="st">      labels: [&#39;Monday&#39;, &#39;Tuesday&#39;, &#39;Wednesday&#39;, &#39;Thursday&#39;, &#39;Friday&#39;],</span></span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a><span class="st">      series: [</span></span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a><span class="st">        [12, 9, 7, 8, 5],</span></span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a><span class="st">        [2, 1, 3.5, 7, 3],</span></span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a><span class="st">        [1, 3, 4, 5, 6]</span></span>
+<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a><span class="st">      ]</span></span>
+<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a><span class="st">    }, {</span></span>
+<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a><span class="st">      fullWidth: true,</span></span>
+<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a><span class="st">      chartPadding: {</span></span>
+<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a><span class="st">        right: 40</span></span>
+<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a><span class="st">      }</span></span>
+<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a><span class="st">    });</span></span>
+<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;/script&gt;</span></span>
+<span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a><span class="st">&lt;/body&gt;</span></span>
+<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a><span class="st">&lt;/html&gt;</span></span>
+<span id="cb12-29"><a href="#cb12-29" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb12-30"><a href="#cb12-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-31"><a href="#cb12-31" aria-hidden="true" tabindex="-1"></a>display(HTML(html_code))</span></code></pre></div>
+<div class="output display_data">
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chartist/dist/chartist.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/chartist/dist/chartist.min.js"></script>
+</head>
+<body>
+  <div class="ct-chart ct-perfect-fourth"></div>
+  <script>
+    new Chartist.Line('.ct-chart', {
+      labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      series: [
+        [12, 9, 7, 8, 5],
+        [2, 1, 3.5, 7, 3],
+        [1, 3, 4, 5, 6]
+      ]
+    }, {
+      fullWidth: true,
+      chartPadding: {
+        right: 40
+      }
+    });
+  </script>
+</body>
+</html>
+
+</div>
+</div>
+<div class="cell markdown" id="9yBM5idd-rmB">
+<p><strong>Use Cases</strong></p>
+</div>
+<div class="cell markdown" id="hlTNJRGY-ytV">
+<p><strong>1.Educational Data Representation</strong></p>
+<p>Schools and universities use Chartist.js to showcase student
+performance, attendance trends, and course completion rates. Data
+visualization simplifies progress tracking and helps educators make
+informed decisions.</p>
+</div>
+<div class="cell markdown" id="rirEIQkH_QRo">
+<p><strong>2.Financial Data Visualization</strong></p>
+<p>Whether you're tracking stock market trends or visualizing your
+personal finances, Chartist.js makes it easy to display revenue,
+expenses, and profits. Interactive charts help in identifying patterns
+and making informed financial decisions.</p>
+</div>
+<div class="cell markdown" id="0APi0_iY_QI0">
+<p><strong>3.Website Analytics</strong></p>
+<p>Web developers and digital marketers can leverage Chartist.js to
+display traffic sources, bounce rates, and page views. A well-designed
+dashboard helps teams optimize website performance by analyzing user
+behavior.</p>
+</div>
+<div class="cell markdown" id="Wrejkh9I_QB0">
+<p><strong>4.Sales and Marketing Reports</strong></p>
+<p>Businesses use Chartist.js to showcase customer engagement, revenue
+growth, and marketing performance. Sales data can be visualized through
+bar charts, helping teams make strategic decisions based on trends.</p>
+</div>
+<div class="cell markdown" id="rS5hfXVT_P5b">
+<p><strong>5.Health Monitoring</strong></p>
+<p>Whether tracking workout progress, sleep cycles, or heart rate
+variations, health apps use Chartist.js to display real-time and
+historical data. Personalized insights help users maintain a healthy
+lifestyle.</p>
+</div>
+<div class="cell markdown" id="dP3W8OX__Pxa">
+<p><strong>6.Supply Chain Management</strong></p>
+<p>Logistics teams rely on Chartist.js to monitor inventory levels,
+delivery times, and demand forecasts. Visualizing this data improves
+efficiency and helps businesses streamline supply chain operations.</p>
+</div>
+<div class="cell markdown" id="JIDUVAxo_Pr6">
+<p><strong>7.Project Management Dashboards</strong></p>
+<p>Team leaders use Chartist.js to track project progress, task
+completion rates, and resource allocation. A well-structured dashboard
+keeps teams informed and ensures smooth project execution.</p>
+</div>
+<div class="cell markdown" id="dhKZ8FzM_Pml">
+<p><strong>8.Weather and Climate Data</strong></p>
+<p>Meteorologists and climate scientists use Chartist.js to display
+temperature changes, rainfall levels, and seasonal patterns. Interactive
+weather charts help in forecasting and understanding climate trends.</p>
+</div>
+<div class="cell markdown" id="XZ_3y9-Z_Piq">
+<p><strong>9.Project Management Dashboards</strong></p>
+<p>Team leaders use Chartist.js to track project progress, task
+completion rates, and resource allocation. A well-structured dashboard
+keeps teams informed and ensures smooth project execution.</p>
+</div>
+<div class="cell markdown" id="GQGiks9w_Pew">
+<p><strong>Conclusion</strong></p>
+</div>
+<div class="cell markdown" id="lzvHSCgI_PZ4">
+<p>In the modern data-driven age, it is essential to display information
+in an easy-to-understand, compelling, and visually appealing way.
+Chartist.js provides a powerful yet easy solution for anyone wishing to
+turn raw data into insightful information. Its lightweight design,
+responsive layout, and ease of customization make it a perfect option
+for developers, analysts, businesses, and teachers alike. By tapping
+into the potential of Chartist.js, you can develop charts that not only
+look good but also make things clearer and more
+decision-making-friendly. Be it analyzing trends in finance, monitoring
+health developments, or business strategy optimization, Chartist.js
+enables you to present data more effectively. Start exploring, get
+creative, and take your data visualization to a new level!</p>
+</div>
+<div class="cell markdown" id="NspaPVjSCDWd">
+<p><strong>Further readings and references</strong></p>
+</div>
+<div class="cell markdown" id="Q3t9ODmqCF2G">
+<p><a href="https://gionkunz.github.io/chartist-js/"
+class="uri">https://gionkunz.github.io/chartist-js/</a></p>
+</div>
+<section id="-further-readings-and-references-for-chartistjs"
+class="cell markdown" id="5hZmv377CKxD">
+<h2>📌 Further Readings and References for Chartist.js</h2>
+<h3 id="1️⃣-official-documentation--guides">1️⃣ Official Documentation
+&amp; Guides</h3>
+<p><span class="math display">$$
+\begin{aligned}
+&amp;\textbf{Chartist.js Official Documentation:} \\
+&amp;\text{https://gionkunz.github.io/chartist-js/} \\ \\
+&amp;\textbf{GitHub Repository for Chartist.js:} \\
+&amp;\text{https://github.com/gionkunz/chartist-js} \\ \\
+&amp;\textbf{Chartist.js Installation Guide:} \\
+&amp;\text{https://gionkunz.github.io/chartist-js/getting-started.html}
+\\
+\end{aligned}
+$$</span></p>
+<h3 id="2️⃣-tutorials--implementation-guides">2️⃣ Tutorials &amp;
+Implementation Guides</h3>
+<p><span class="math display">$$
+\begin{aligned}
+&amp;\textbf{Creating Beautiful Charts with Chartist.js:} \\
+&amp;\text{https://css-tricks.com/introducing-chartist-js/} \\ \\
+&amp;\textbf{Using Chartist.js with React:} \\
+&amp;\text{https://dev.to/arpit1912/using-chartist-js-in-reactjs-53km}
+\\ \\
+&amp;\textbf{Styling Chartist.js Charts with CSS:} \\
+&amp;\text{https://www.smashingmagazine.com/2015/08/animating-charts-with-chartist-js/}
+\\
+\end{aligned}
+$$</span></p>
+<h3 id="3️⃣-advanced-use-cases--customization">3️⃣ Advanced Use Cases
+&amp; Customization</h3>
+<p><span class="math display">$$
+\begin{aligned}
+&amp;\textbf{Chartist.js Plugins &amp; Extensions:} \\
+&amp;\text{https://gionkunz.github.io/chartist-js/plugins.html} \\ \\
+&amp;\textbf{Chartist.js vs Other Charting Libraries:} \\
+&amp;\text{https://stackshare.io/stackups/chart-js-vs-chartist-js-vs-d3-js}
+\\ \\
+&amp;\textbf{Customizing SVG Charts in Chartist.js:} \\
+&amp;\text{https://tympanus.net/codrops/2015/06/29/making-svgs-dance-with-css-and-javascript/}
+\\
+\end{aligned}
+$$</span></p>
+<h3 id="4️⃣-bonus-interactive-learning--code-examples">4️⃣ Bonus:
+Interactive Learning &amp; Code Examples</h3>
+<p><span class="math display">$$
+\begin{aligned}
+&amp;\textbf{CodePen Examples for Chartist.js:} \\
+&amp;\text{https://codepen.io/search/pens?q=chartist-js&amp;order=popularity&amp;depth=everything}
+\\
+\end{aligned}
+$$</span></p>
+</section>
+</body>
+</html>
